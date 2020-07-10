@@ -12,6 +12,7 @@ def reconstruct_trip(tickets, length):
     destinations = [None] * length
 
     destination_lookup = dict()
+    print(destination_lookup)
 
     # store it's ticket's destination
     for ticket in tickets:
